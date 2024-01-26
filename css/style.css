@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#conteiner {
+    display: flex;
+    padding: 80px 195px;
+    justify-content: center;
+    align-items: center;
+    background: #2B2B2B;
+}
+
+a {
+    font-family: "Work Sans";
+
+}
+
+.top-header {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #2B2B2B;
+}
+
+.img-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-nav a {
+    color: #FFF;
+    padding-left: 5px;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navigation-list li a {
+    color: #fff;
+    margin-right: 50px;
+}
+
+.navigation-list li:last-child {
+    background-color: #A259FF;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+}
+
+.navigation-list li:last-child a {
+    margin-right: 0px;
+
+}
+
+.navigation-list li:last-child i {
+    margin-right: 7px;
+}
+
+.discover-head p {
+    font-size: 50px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    color: #fff;
+}
+
+.Placeholder {
+    height: 401px;
+    width: 510px;
+
+}
+
+.Placeholder img {
+    width: 330px;
+    height: 221px;
+    border: 1px solid #2B2B2B;
+    border-radius: 20px;
+}
+
+.NFT {
+    margin-top: 20px;
+
+    width: 510px;
+    height: 104px;
+}
+
+.NFT p {
+    font-family: "Work Sans";
+    font-size: 22px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.get {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #A259FF;
+    color: #fff;
+    width: 224px;
+    height: 60px;
+    justify-content: center;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+}
+
+.get a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.total {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    color: #fff;
+    font-family: "Work Sans";
+}
+
+.total p {
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.total p span {
+    font-family: "Work Sans";
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.space{
+    display: flex;
+    width: 330px;
+    height: 109px;
+    padding: 20px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.space p{
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;
+    color: #FFF;
+    padding-right: 81px; 
+
+
+}
+.picture{
+    width: 24px;
+    height: 24px;
+    flex-shrink:0;
+    margin-right:208px;
+display: flex;
+justify-content: space-between
+;
+}
+
+.avatar  > p {
+    font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+color: #FFF;
+padding-left: 8px;
+}
+
+
+
