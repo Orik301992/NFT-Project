@@ -1,9 +1,24 @@
 @media only screen and (max-width:375px){
-    .top-header .nav{
+.top-header .nav{
 display: none;
+}
+.Placeholder{
+display: none;
+}
+.Discover{
+display: none;
+}
 
-    }
+.mobile-top-header{
+display: flex;
+}
+.img-nav{
+    display: none;
+    
+}
 
 
 
 }
+
+
