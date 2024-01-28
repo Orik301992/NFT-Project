@@ -219,11 +219,39 @@ display: none;
 }
 
 .mobile-img-nav {
-display: flex;
-padding: 15px 30px;
-justify-content: space-between;
-align-items: center;
-align-self: stretch;
-width: 100%;
-height: auto;
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 375px;
+    height: 54px;
+    background: #2B2B2B;
 }
+.logo{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.mobile-img-nav .logo > a{
+    color:rgba(255, 255, 255, 1);
+    width: 149.56px;
+    height: 14.85px;
+    flex-shrink: 0;
+}
+.mobile-img-nav .burger > i{
+    width: 24px;
+    height: 24px;
+color: #FFF;
+}
+
+.mobile-img-nav .logo > img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+
+}
+
+
+
+
